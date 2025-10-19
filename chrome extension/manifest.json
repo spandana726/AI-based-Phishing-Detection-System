@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "Phishing Detector",
+  "version": "1.0",
+  "description": "Detect if a URL is Phishing or Safe.",
+  "permissions": ["activeTab"],
+  "browser_action": {
+      "default_popup": "popup.html"
+  }
+}
